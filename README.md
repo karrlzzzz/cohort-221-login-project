@@ -1,0 +1,95 @@
+# karli-rodriguez-login-ui-with-flexbox
+login-project
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    
+    <link rel="stylesheet" href="roxanne-blackwood-email-template-with-bootstrap-grid.css">
+    <script src="https://kit.fontawesome.com/d8fc45bb82.js" crossorigin="anonymous"></script>
+    <title>Email Login</title>
+</head>
+</html>
+        <style>
+    
+            html, body {
+              margin: 0px;
+            }
+
+           .button {
+            border: none;
+            background-color: dodgerblue;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            border-radius: 16px;
+            color: white;
+            padding: 10px 55px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            cursor: pointer;
+            margin-top: 15px;
+           }
+            
+
+            #container {
+              align-items: center;
+              background-color: papayawhip;
+              display: flex;
+              height: 150vh;
+              padding: 22px;
+              justify-content: center;
+              width: 100vw;
+            }
+
+            #login-form { 
+                display: flex;
+                background-color: white;
+                border-radius: 5%;
+                height: 280px;flex-direction: column;
+                padding: 5%;
+                text-align: center;
+                font:message-box;
+                width: 350px;
+              }
+        
+            input {
+              width: 95%;
+              padding: 5px;
+              margin: 10px;
+            }
+
+            
+
+
+        </style>
+    
+
+    <body> 
+        <div id="container">
+
+            
+            <div id="login-form">
+            
+              <h5>Sign in</h5>
+              
+
+              
+              <input type="username" placeholder="username" required>
+
+
+              
+              <input type="password" placeholder="password" required>
+
+              <button class="button">sign in</button>
+        </div>
+    </body>
+</html>
